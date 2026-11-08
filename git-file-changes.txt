@@ -1,0 +1,67 @@
+commit 6a0213d996d1b69f19104eca45e6a69f9b0b95ca
+Author: Ishan <ishan@Elver-Galarga.local>
+Date:   2026-11-02
+
+    need cheesecakes so bad rn
+
+ .DS_Store                                          |  Bin 0 -> 6148 bytes
+ frontend/.gitignore                                |   41 +
+ frontend/README.md                                 |   36 +
+ frontend/app/favicon.ico                           |  Bin 0 -> 15086 bytes
+ frontend/app/globals.css                           |   31 +
+ frontend/app/layout.tsx                            |   17 +
+ frontend/app/login/page.tsx                        |  101 +
+ frontend/app/page.tsx                              |    5 +
+ frontend/app/professor/page.tsx                    |  341 +
+ frontend/app/student/page.tsx                      |  262 +
+ frontend/components/app-shell.tsx                  |   41 +
+ frontend/components/stat.tsx                       |    9 +
+ frontend/components/status-badge.tsx               |   28 +
+ frontend/components/ui/badge.tsx                   |   11 +
+ frontend/components/ui/button.tsx                  |   30 +
+ frontend/components/ui/card.tsx                    |   17 +
+ frontend/components/ui/input.tsx                   |   18 +
+ frontend/components/ui/table.tsx                   |   25 +
+ frontend/components/upload-panel.tsx               |  106 +
+ frontend/eslint.config.mjs                         |   18 +
+ frontend/lib/api.ts                                |   72 +
+ frontend/lib/format.ts                             |   21 +
+ frontend/lib/session.ts                            |   40 +
+ frontend/lib/types.ts                              |   32 +
+ frontend/lib/utils.ts                              |    5 +
+ frontend/next.config.mjs                           |    4 +
+ frontend/next.config.ts                            |   18 +
+ frontend/package 2.json                            |   29 +
+ frontend/package-lock.json                         | 6856 ++++++++++++++++++++
+ frontend/package.json                              |   33 +
+ frontend/postcss.config.mjs                        |    7 +
+ frontend/public/file.svg                           |    1 +
+ frontend/public/globe.svg                          |    1 +
+ frontend/public/next.svg                           |    1 +
+ frontend/public/vercel.svg                         |    1 +
+ frontend/public/window.svg                         |    1 +
+ frontend/tsconfig.json                             |   34 +
+ turnin/.DS_Store                                   |  Bin 0 -> 6148 bytes
+ turnin/.env.example                                |    7 +
+ turnin/cmd/api/main.go                             |   93 +
+ turnin/cmd/api/main_test.go                        |  176 +
+ turnin/dockerfile                                  |   29 +
+ turnin/go.mod                                      |   43 +
+ turnin/go.sum                                      |  115 +
+ turnin/internal/.DS_Store                          |  Bin 0 -> 6148 bytes
+ turnin/internal/apierr/apierr.go                   |   48 +
+ turnin/internal/auth/jwt.go                        |   64 +
+ turnin/internal/config/config.go                   |   55 +
+ turnin/internal/database/database.go               |   59 +
+ turnin/internal/database/seed.sql                  |   76 +
+ turnin/internal/handlers/assignment.go             |  146 +
+ turnin/internal/handlers/auth.go                   |   81 +
+ turnin/internal/handlers/submissions.go            |  257 +
+ turnin/internal/middleware/auth.go                 |   45 +
+ turnin/internal/models/models.go                   |   76 +
+ turnin/internal/routes/routes.go                   |   64 +
+ turnin/internal/worker/scanner.go                  |   93 +
+ turnin/litestream.yml                              |   10 +
+ turnin/turnin.db                                   |  Bin 0 -> 77824 bytes
+ .../80f6d8dd-6ca6-4cba-a386-5f2bf1b62fb8_CSDA.pdf  |  Bin 0 -> 304188 bytes
+ 60 files changed, 9830 insertions(+)
